@@ -1,0 +1,49 @@
+The let keyword was introduced in ES6 (2015)
+
+Variables declared with let have Block Scope
+
+Variables declared with let must be Declared before use
+
+Variables declared with let cannot be Redeclared in the same scope
+
+Block Scope
+Before ES6 (2015), JavaScript did not have Block Scope.
+
+JavaScript had Global Scope and Function Scope.
+
+ES6 introduced the two new JavaScript keywords: let and const.
+
+These two keywords provided Block Scope in JavaScript:
+Variables declared inside a { } block cannot be accessed from outside the block:
+
+{
+  let x = 2;
+}
+// x can NOT be used here
+Global Scope
+Variables declared with the var always have Global Scope.
+
+Variables declared with the var keyword can NOT have block scope:
+What is Good?
+let and const have block scope.
+
+let and const can not be redeclared.
+
+let and const must be declared before use.
+
+let and const does not bind to this.
+
+let and const are not hoisted.
+
+What is Not Good?
+var does not have to be declared.
+
+var is hoisted.
+
+var binds to this.
+
+If you want to learn more about hoisting, study the chapter JavaScript Hoisting.
+
+Variables defined with let are also hoisted to the top of the block, but not initialized.
+
+Meaning: Using a let variable before it is declared will result in a ReferenceError:

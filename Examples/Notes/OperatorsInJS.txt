@@ -1,0 +1,11 @@
+Javascript operators are used to perform different types of mathematical and logical computations.
+
+Examples:
+The Assignment Operator = assigns values
+
+The Addition Operator + adds values
+
+The Multiplication Operator * multiplies values
+
+The Comparison Operator > compares values.
+
