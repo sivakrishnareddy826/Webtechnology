@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript String Methods</title>
+  </head>
+  <body>
+    <h1>JavaScript String Methods</h1>
+    <h2>The slice() Method</h2>
+
+    <p>The sliced (extracted) part of the string is:</p>
+    <p id="slice"></p>
+
+    <script>
+      let text = "Apple, Banana, Kiwi";
+      let part = text.slice(7, 13);
+      document.getElementById("slice").innerHTML = part;
+    </script>
+    <p>
+      The substring() method extract a part of a string and returns the
+      extracted parts in a new string:
+    </p>
+
+    <p id="substr"></p>
+
+    <script>
+      let str = "Apple, Banana, Kiwi";
+      document.getElementById("substr").innerHTML = str.substring(7, 13);
+    </script>
+  </body>
+</html>

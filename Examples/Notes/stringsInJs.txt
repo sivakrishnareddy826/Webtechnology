@@ -1,0 +1,96 @@
+Strings are for storing text
+
+Strings are written with quotes
+
+Using Quotes
+A JavaScript string is zero or more characters written inside quotes.
+
+Example
+let text = "John Doe";
+You can use single or double quotes:
+
+Example
+let carName1 = "Volvo XC60";  // Double quotes
+let carName2 = 'Volvo XC60';  // Single quotes
+Note
+Strings created with single or double quotes works the same.
+
+There is no difference between the two.
+
+Template Strings
+Templates were introduced with ES6 (JavaScript 2016).
+
+Templates are strings enclosed in backticks (`This is a template string`).
+
+Templates allow single and double quotes inside a string:
+
+Example
+let text = `He's often called "Johnny"`;
+
+Note
+Templates are not supported in Internet Explorer.
+
+Six other escape sequences are valid in JavaScript:
+
+Code	Result
+\b	Backspace
+\f	Form Feed
+\n	New Line
+\r	Carriage Return
+\t	Horizontal Tabulator
+\v	Vertical Tabulator
+
+Note
+The 6 escape characters above were originally designed to control typewriters, teletypes, and fax machines. They do not make any sense in HTML.
+
+Basic String Methods
+Javascript strings are primitive and immutable: All string methods produces a new string without altering the original string.
+
+String length // length of the string
+String charAt() //character at the index value
+String charCodeAt() //The charCodeAt() method returns the code of the character at a specified index in a string: The method returns a UTF-16 code (an integer between 0 and 65535).
+
+String at() // returns the letter of the index
+Note:
+The at() method is a new addition to JavaScript.
+It allows the use of negative indexes while charAt() do not.
+Now you can use myString.at(-2) instead of charAt(myString.length-2).
+
+String [ ]
+String slice()
+String substring()
+String substr()
+See Also:
+String Search Methods
+String Templates
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String repeat()
+String replace()
+String replaceAll()
+String split()
+
+Extracting String Characters
+There are 4 methods for extracting string characters:
+
+The at(position) Method
+The charAt(position) Method
+The charCodeAt(position) Method
+Using property access [] like in arrays
+
+String Search Methods
+String indexOf()
+String lastIndexOf()
+String search()
+
+String match()
+String matchAll()
+String includes()
+String startsWith()
+String endsWith()

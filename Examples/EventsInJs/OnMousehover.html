@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+</head>
+<body>
+    <h2>JavaScript Events</h2>
+    <h3>On mousehover Event Example</h3>
+    <button type="button" onmouseover="displaytime()">Time and Date is?</button>
+
+    <p id="demo"></p>
+    <script>
+        function displaytime(){
+            document.getElementById('demo').innerHTML = Date();
+        }
+    </script>
+    <h3>Below button for on Mouse leave</h3>
+    <button type="button" onmouseleave="displaytime()">Try it for Date?</button>
+</body>
+</html>
